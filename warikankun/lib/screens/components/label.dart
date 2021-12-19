@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Label extends StatelessWidget {
-  Label({this.text});
+  Label({required this.text});
   final String text;
 
   @override

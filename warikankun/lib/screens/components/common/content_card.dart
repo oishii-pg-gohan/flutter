@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:warikankun/consts.dart';
 
 class ContentCard extends StatelessWidget {
-  ContentCard({this.title, this.child});
+  ContentCard({required this.title, required this.child});
   final String title;
   final Widget child;
 

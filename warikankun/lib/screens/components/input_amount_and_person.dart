@@ -3,7 +3,10 @@ import 'package:warikankun/screens/components/label.dart';
 import 'package:warikankun/screens/components/text_field.dart';
 
 class InputAmountAndPerson extends StatelessWidget {
-  InputAmountAndPerson({this.onChangeAmount, this.onChangePerson});
+  InputAmountAndPerson({
+    required this.onChangeAmount,
+    required this.onChangePerson,
+  });
   final Function onChangeAmount;
   final Function onChangePerson;
 

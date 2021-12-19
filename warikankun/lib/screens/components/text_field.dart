@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class NumberTextField extends StatelessWidget {
-  NumberTextField({this.onChanged});
+  NumberTextField({required this.onChanged});
   final Function onChanged;
 
   @override
@@ -9,7 +9,7 @@ class NumberTextField extends StatelessWidget {
     return TextField(
       textAlign: TextAlign.center,
       keyboardType: TextInputType.number,
-      style: TextStyle(fontSize: 35.0),
+      style: TextStyle(fontSize: 25.0),
       onChanged: (value) => onChanged(value),
     );
   }
